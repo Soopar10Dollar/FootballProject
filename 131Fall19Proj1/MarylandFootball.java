@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class MarylandFootball {
 
 	public static void main(String[] args) {
@@ -21,23 +20,23 @@ public class MarylandFootball {
 			PLAYER_JERSEY_NUMBER = scan.nextInt();
 			
 			if (PLAYER_JERSEY_NUMBER == JACKSON || 
-				PLAYER_JERSEY_NUMBER == BROOKS || 
-				PLAYER_JERSEY_NUMBER == MCFARLAND ||
-				PLAYER_JERSEY_NUMBER == ELLIS) {
-				System.out.print("Which player wears number " + 
-								PLAYER_JERSEY_NUMBER + " on his jersey? ");
-
+			    PLAYER_JERSEY_NUMBER == BROOKS || 
+			    PLAYER_JERSEY_NUMBER == MCFARLAND ||
+			    PLAYER_JERSEY_NUMBER == ELLIS) {
+			    System.out.print("Which player wears number " + 
+					     PLAYER_JERSEY_NUMBER + " on his jersey? ");
+				
 				PLAYER_LAST_NAME = scan.next();
 
 				if ((PLAYER_LAST_NAME.equals("Jackson") &&
-					PLAYER_JERSEY_NUMBER == JACKSON) ||
-					(PLAYER_LAST_NAME.equals("Brooks") &&
-					PLAYER_JERSEY_NUMBER == BROOKS) || 
-					(PLAYER_LAST_NAME.equals("McFarland") &&
-					PLAYER_JERSEY_NUMBER == MCFARLAND) ||
-					(PLAYER_LAST_NAME.equals("Ellis") && 
-					PLAYER_JERSEY_NUMBER == ELLIS)) {
-					System.out.print("Correct!");
+				     PLAYER_JERSEY_NUMBER == JACKSON) ||
+				     (PLAYER_LAST_NAME.equals("Brooks") &&
+				     PLAYER_JERSEY_NUMBER == BROOKS) || 
+				     (PLAYER_LAST_NAME.equals("McFarland") &&
+				     PLAYER_JERSEY_NUMBER == MCFARLAND) ||
+				     (PLAYER_LAST_NAME.equals("Ellis") && 
+				     PLAYER_JERSEY_NUMBER == ELLIS)) {
+				     System.out.print("Correct!");
 
 				} else {
 					System.out.print("Incorrect!");
@@ -53,24 +52,23 @@ public class MarylandFootball {
 			PLAYER_LAST_NAME = scan.next();
 
 			if (PLAYER_LAST_NAME.equals("Jackson") ||
-				PLAYER_LAST_NAME.equals("Brooks") ||
-				PLAYER_LAST_NAME.equals("McFarland") || 
-				PLAYER_LAST_NAME.equals("Ellis")) {
-				
-				System.out.print("What number does " +
-				PLAYER_LAST_NAME + " wear? ");
+			    PLAYER_LAST_NAME.equals("Brooks") ||
+			    PLAYER_LAST_NAME.equals("McFarland") || 
+			    PLAYER_LAST_NAME.equals("Ellis")) {
+			    System.out.print("What number does " +
+					     PLAYER_LAST_NAME + " wear? ");
 				
 				PLAYER_JERSEY_NUMBER = scan.nextInt();
 
 				if ((PLAYER_JERSEY_NUMBER == JACKSON &&
-					PLAYER_LAST_NAME.equals("Jackson")) ||
-					(PLAYER_JERSEY_NUMBER == BROOKS &&
-					PLAYER_LAST_NAME.equals("Brooks")) || 
-					(PLAYER_JERSEY_NUMBER == MCFARLAND && 
-					PLAYER_LAST_NAME.equals("McFarland")) ||
-					(PLAYER_JERSEY_NUMBER == ELLIS &&
-					PLAYER_LAST_NAME.equals("Ellis"))) {
-					System.out.print("Correct!");
+				     PLAYER_LAST_NAME.equals("Jackson")) ||
+				     (PLAYER_JERSEY_NUMBER == BROOKS &&
+				     PLAYER_LAST_NAME.equals("Brooks")) || 
+				     (PLAYER_JERSEY_NUMBER == MCFARLAND && 
+				     PLAYER_LAST_NAME.equals("McFarland")) ||
+				     (PLAYER_JERSEY_NUMBER == ELLIS &&
+				     PLAYER_LAST_NAME.equals("Ellis"))) {
+				     System.out.print("Correct!");
 
 				} else {
 					System.out.print("Incorrect!");
